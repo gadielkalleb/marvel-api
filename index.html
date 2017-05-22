@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+<!--============================================================================
+      META
+=============================================================================-->
+    <meta charset="utf-8">
+    <meta name="description" content="Esse site é um exemplo de como usar a api da marvel." >
+    <meta name="keywords" content="marvel api, marvel, vingadores, herois"  >
+    <meta name="author"  content="Gadiel Kalleb" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<!--============================================================================
+      CSS
+=============================================================================-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" href="css/skel.css" />
+
+
+<!--============================================================================
+      FAVICON
+=============================================================================-->
+    <link  rel="icon" type="image/png" href="midia/icon.jpeg">
+
+
+<!--============================================================================
+      SCRIPTS
+=============================================================================-->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrollgress.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.slidertron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+
+
+<!--============================================================================
+    TITULO
+=============================================================================-->
+    <title>Marvel</title>
+ </head>
+
+
+<!--============================================================================
+    O CORPO DO SITE COMEÇA AQUI
+=============================================================================-->
+<body>
+
+<!--============================================================================
+      MENU DO SITE
+=============================================================================-->
+  <header id="header" class="alt skel-layers-fixed">
+    <h1><a href="index.html">Desenvolvido com Marvel-api</a></h1>
+    
+  </header>
+
+<!--============================================================================
+        BANNER DO SITE TOPO
+=============================================================================-->
+			<section id="banner">
+				<div class="inner">
+					<h2></h2>
+				</div>
+			</section>
+
+<!--============================================================================
+        INFORMAÇÕES
+=============================================================================-->
+      <section id="one" class="wrapper style1">
+				<div class="container">
+					<header class="major">
+						<h2>Marvel Api </h2>
+						<p>Este site é um exemplo de como funciona a api da marvel, <br />
+						        a api pode ser aplicada em aplicativos <br />
+						este site é somente para mostrar informçaões sobre v1/characters.</p>
+					</header>
+				</div>
+			</section>
+
+<!--============================================================================
+  AQUI QUE APARECE OS DADOS DA API DA MARVEL
+=============================================================================-->
+      <div class="container">
+          <h1 class="text-center">/v1/public/characters</h1>
+          <p class="lead text-center" id="message"></p>
+          <div id="marvel-container"></div>
+      </div>
+
+      <section id="banner2">
+				<div class="inner">
+					<h2></h2>
+				</div>
+			</section>
+<!--============================================================================
+        ICONES DE REDE SOCIAIS
+=============================================================================-->
+      <section id="cta" class="wrapper style3">
+            <ul class="icons">
+                <li><a href="https://twitter.com/konstion" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100011646783613" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/gadielkalleb/?hl=pt-br" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+            </ul>
+
+<!--============================================================================
+      ESSE FOOTER CHAMA A API DA MARVEL COM O DIREITOS RESERVADOS
+=============================================================================-->
+            <p id="footer"></p>
+
+<!--============================================================================
+    DIREITOS RESERVADOS E CONTATO DO MEU GITHUB
+=============================================================================-->
+            <footer id="footer1">
+                <span class="copyright">
+            	       &copy; Copyright. All rights reserved. Design by <a href="http://www.github.com/gadielkalleb" target="_blank">Gadiel Kalleb</a>
+            	  </span>
+            </footer>
+  	</section>
+</body>
+
+<!--============================================================================
+  SCRIPT DA API DA MARVEL DE ALGUMA FORMA ELE NÃO FUNCIONOU JUNTO COM OS SCRIPTS
+=============================================================================-->
+<script type="text/javascript" src="js/marvel.js"></script>
+</html>
